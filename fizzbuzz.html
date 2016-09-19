@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<script>
+var fb = function(number) {
+  if(number % 15 === 0) {
+    return "FizzBuzz";
+  } else if(number % 3 === 0) {
+    return "Fizz";
+  } else if(number % 5 === 0) {
+    return "Buzz";
+  } else {
+    return number;
+  };
+};
+console.log(fb(1)); //1
+console.log(fb(3)); //"Fizz"
+console.log(fb(5)); //"Buzz"
+console.log(fb(15)); //"FizzBuzz"
+</script>
